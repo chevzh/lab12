@@ -23,4 +23,3 @@ lab12.MyDate Property SomeConst
 lab12.MyDate Property Day
 lab12.MyDate Property Month
 lab12.MyDate Property Year
-

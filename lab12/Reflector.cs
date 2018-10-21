@@ -14,18 +14,22 @@ namespace lab12
         {
             string log = @"C:\Users\eugen\Desktop\lab12\log.txt";
             Type type = Type.GetType(className, false, true);
-            string buffer = null;
+            List<string> buffer = new List<string>();
 
             Console.WriteLine("Содержимое класса " + className);
             foreach (MemberInfo mi in type.GetMembers())
             {
                 Console.WriteLine(mi.DeclaringType + " " + mi.MemberType + " " + mi.Name);
-                buffer += mi.DeclaringType + " " + mi.MemberType + " " + mi.Name + "\n";
+                buffer.Add(mi.DeclaringType + " " + mi.MemberType + " " + mi.Name);
             }
 
             using (StreamWriter sw = new StreamWriter(log, false, System.Text.Encoding.Default))
             {
-                sw.WriteLine(buffer);
+                foreach(var str in buffer)
+                {
+                    sw.WriteLine(str);
+                }
+                
             }
 
         }
