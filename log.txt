@@ -1,0 +1,26 @@
+lab12.MyDate Method get_Id
+lab12.MyDate Method get_SomeConst
+lab12.MyDate Method get_Day
+lab12.MyDate Method set_Day
+lab12.MyDate Method get_Month
+lab12.MyDate Method set_Month
+lab12.MyDate Method get_Year
+lab12.MyDate Method set_Year
+lab12.MyDate Method SetDate
+lab12.MyDate Method GetSum
+lab12.MyDate Method GetClassInfo
+lab12.MyDate Method PrintDate
+lab12.MyDate Method PrintShortDate
+lab12.MyDate Method GetHashCode
+lab12.MyDate Method Equals
+System.Object Method ToString
+System.Object Method GetType
+lab12.MyDate Constructor .ctor
+lab12.MyDate Constructor .ctor
+lab12.MyDate Constructor .ctor
+lab12.MyDate Property Id
+lab12.MyDate Property SomeConst
+lab12.MyDate Property Day
+lab12.MyDate Property Month
+lab12.MyDate Property Year
+

@@ -10,6 +10,10 @@ namespace lab12
     {
         static void Main(string[] args)
         {
+
+            Reflector.GetClassContent("lab12.MyDate");
+            Reflector.GetPublicMethods("lab12.MyDate");
+
         }
     }
 }
