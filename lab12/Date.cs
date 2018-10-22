@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab12
 {
-    public partial class MyDate
+    public partial class MyDate: IExample
     {
         private int day;
         private int year;
@@ -16,7 +16,7 @@ namespace lab12
         private static int objectCounter = 0;
 
 
-
+        public void Example() { }
 
 
 

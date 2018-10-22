@@ -33,11 +33,11 @@ namespace lab12
             }
         }
 
-        public static int GetSum(ref int value, out int constant)
+        public static void GetSum(int value)
         {
-            constant = someConst;
+           int res = 123 + value;
 
-            return value + constant;
+            Console.WriteLine(res);
         }
 
         public static void GetClassInfo()

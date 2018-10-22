@@ -1,3 +1,4 @@
+lab12.MyDate Method Example
 lab12.MyDate Method get_Id
 lab12.MyDate Method get_SomeConst
 lab12.MyDate Method get_Day
